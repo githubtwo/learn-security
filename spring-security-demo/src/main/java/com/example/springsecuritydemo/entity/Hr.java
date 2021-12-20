@@ -36,7 +36,7 @@ public class Hr implements UserDetails {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        org.javaboy.vhr.model.Hr hr = (org.javaboy.vhr.model.Hr) o;
+        Hr hr = (Hr) o;
         return Objects.equals(username, hr.username);
     }
 
